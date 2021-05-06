@@ -37,7 +37,7 @@ class LambdaDemo extends Component {
       </p>
 	  
 	  <p>
-		{queryString}
+		Salut !
 	  </p>
 	</>
 
