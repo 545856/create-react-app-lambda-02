@@ -22,8 +22,7 @@ class LambdaDemo extends Component {
 
     return (
 	<>
-	  
-			
+	  		
 		<div className="hiddenVid" id="monetFr">
 			<a href="https://youtu.be/16jiP0gLKCA">Français</a>
 		</div>
@@ -50,9 +49,6 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
           <LambdaDemo />
         </header>
       </div>
