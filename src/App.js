@@ -3,10 +3,6 @@ import logo from "./logo.svg"
 import "./App.css"
 
 
-function myFunction() {
-  console.log("Hello");
-}
-
 class LambdaDemo extends Component {
   constructor(props) {
     super(props)
@@ -34,9 +30,9 @@ class LambdaDemo extends Component {
       </p>
 
       <div>
-          <div class="hiddenTest">Salut 1</div>
-          <div class="hiddenTest">Salut 2</div>
-          <div class="hiddenTest">Salut 3</div>
+          <p class="hiddenTest">Salut 1</p>
+          <p class="hiddenTest">Salut 2</p>
+          <p class="hiddenTest">Salut 3</p>
       </div>
     )
   }
