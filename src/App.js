@@ -29,7 +29,9 @@ class LambdaDemo extends Component {
         <span>{msg}</span>
       </p>
 	  
-	  <div>Salut !</div>
+	  <div>	  
+		<p>Salut !/p>	  
+	  </div>
 
     )
   }
