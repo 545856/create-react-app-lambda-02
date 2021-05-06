@@ -38,6 +38,9 @@ class LambdaDemo extends Component {
 	  
 	  <p>
 		Salut !
+		<script>
+			document.write("<iframe title='YouTube video player' type=\"text/html\" width='640' height='390' src='https://youtu.be/16jiP0gLKCA'frameborder='0' allowFullScreen></iframe>";
+		</script>
 	  </p>
 	</>
 
