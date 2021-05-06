@@ -15,24 +15,6 @@ class LambdaDemo extends Component {
   componentDidMount() {
 		const queryString = window.location.search;
 		
-		  const YoutubeEmbed = ({ embedId }) => (
-  <div className="video-responsive">
-    <iframe
-      width="853"
-      height="480"
-      src={`https://www.youtube.com/embed/${embedId}`}
-      frameBorder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-      title="Embedded youtube"
-    />
-  </div>
-);
-
-YoutubeEmbed.propTypes = {
-  embedId: PropTypes.string.isRequired
-};
-  
     }
 
   handleClick = api => e => {
@@ -60,10 +42,9 @@ YoutubeEmbed.propTypes = {
 		Salut !
 	  </p>
 	  
-	  <div className="App">
-      <h1>Youtube Embed</h1>
-      <YoutubeEmbed embedId="rokGy0huYEA" />
-    </div>
+	  <iframe width="420" height="315"
+		src="https://www.youtube.com/embed/tgbNymZ7vqY">
+		</iframe>
 	</>
 
     )
