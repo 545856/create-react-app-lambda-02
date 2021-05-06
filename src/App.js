@@ -2,6 +2,11 @@ import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
 
+
+function myFunction() {
+  
+}
+
 class LambdaDemo extends Component {
   constructor(props) {
     super(props)
@@ -27,6 +32,12 @@ class LambdaDemo extends Component {
         <br />
         <span>{msg}</span>
       </p>
+
+      <div onload="myFunction()">
+          <div class="hidden">Salut 1</div>
+          <div class="hidden">Salut 2</div>
+          <div class="hidden">Salut 3</div>
+      </div>
     )
   }
 }
