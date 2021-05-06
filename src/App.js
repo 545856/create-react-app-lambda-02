@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
-import PropTypes from "prop-types";
 
 class LambdaDemo extends Component {
   constructor(props) {
@@ -44,7 +43,7 @@ class LambdaDemo extends Component {
 	  </p>
 	  
 	  <div className="video-responsive">
-	  <iframe id="frame1"
+	  <iframe id="frame1" title="superVid"
 		src="https://www.youtube.com/embed/tgbNymZ7vqY">
 		</iframe>
 		
