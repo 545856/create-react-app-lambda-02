@@ -29,9 +29,13 @@ class LambdaDemo extends Component {
         <span>{msg}</span>
       </p>
 	  
-	  <div>	  
-		<p>Salut !/p>	  
-	  </div>
+	  <>
+       React fragments.
+      <h2>A heading</h2>
+      More React fragments.
+      <h2>Another heading</h2>
+      Even more React fragments.
+    </>
 
     )
   }
