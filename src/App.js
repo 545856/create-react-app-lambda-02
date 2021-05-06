@@ -22,6 +22,7 @@ class LambdaDemo extends Component {
     const { loading, msg } = this.state
 
     return (
+	<>
       <p>
         <button onClick={this.handleClick("hello")}>{loading ? "Loading..." : "Call Super Lambda"}</button>
         <button onClick={this.handleClick("async-dadjoke")}>{loading ? "Loading..." : "Call Super Async Lambda"}</button>
@@ -29,13 +30,14 @@ class LambdaDemo extends Component {
         <span>{msg}</span>
       </p>
 	  
-	  <>
-       React fragments.
-      <h2>A heading</h2>
-      More React fragments.
-      <h2>Another heading</h2>
-      Even more React fragments.
-    </>
+		  <>
+		   React fragments.
+		  <h2>A heading</h2>
+		  More React fragments.
+		  <h2>Another heading</h2>
+		  Even more React fragments.
+		</>
+	</>
 
     )
   }
