@@ -14,7 +14,7 @@ class LambdaDemo extends Component {
   componentDidMount() {
 		const queryString = window.location.search;
 		console.log(queryString);
-		if (queryString == "monet") {
+		if (queryString === "monet") {
 			document.getElementById("monetFr").classList.remove('hiddenVid');
 			document.getElementById("monetEn").classList.remove('hiddenVid');
 		}
