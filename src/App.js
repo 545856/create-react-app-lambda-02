@@ -42,12 +42,26 @@ class LambdaDemo extends Component {
 		Salut !
 	  </p>
 	  
-	  <div className="video-responsive">
-	  <iframe id="frame1" title="superVid"
-		src="https://www.youtube.com/embed/tgbNymZ7vqY">
-		</iframe>
+			
+		<div className="hiddenVid" id="monetFr">
+			<a href="https://youtu.be/16jiP0gLKCA">Français</a>
+		</div>
+		<div className="hiddenVid" id="monetEn">
+			<a href="https://youtu.be/16jiP0gLKCA">English</a>
+		</div>
+		<div className="hiddenVid" id="signacFr">
+			<a href="https://youtu.be/16jiP0gLKCA">Français</a>
+		</div>
+		<div className="hiddenVid" id="monetEn">
+			<a href="https://youtu.be/16jiP0gLKCA">English</a>
+		</div>
+		
+		Signac 
+		
 		
 		</div>
+		
+		
 		
 		</>
     )
