@@ -56,11 +56,6 @@ class LambdaDemo extends Component {
 			<a href="https://youtu.be/16jiP0gLKCA">English</a>
 		</div>
 		
-		Signac 
-		
-		
-		</div>
-		
 		
 		
 		</>
