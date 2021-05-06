@@ -14,7 +14,7 @@ class LambdaDemo extends Component {
 
   componentDidMount() {
 		const queryString = window.location.search;
-		console.log("queryString");
+		console.log(queryString);
 		
     }
 
@@ -44,7 +44,7 @@ class LambdaDemo extends Component {
 	  </p>
 	  
 	  <div className="video-responsive">
-	  <iframe width="420" height="315"
+	  <iframe id="frame1"
 		src="https://www.youtube.com/embed/tgbNymZ7vqY">
 		</iframe>
 		
