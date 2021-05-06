@@ -1,13 +1,20 @@
 import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
-
+import queryString from 'query-string';
 
 class LambdaDemo extends Component {
   constructor(props) {
     super(props)
     this.state = { loading: false, msg: null }
+	
+
   }
+  
+  componentDidMount() {
+		const location = useHistory().location;
+		const query = queryString.parse(location.search);
+    }
 
   handleClick = api => e => {
     e.preventDefault()
@@ -31,7 +38,7 @@ class LambdaDemo extends Component {
       </p>
 	  
 	  <p>
-		Salut !
+		{query}
 	  </p>
 	</>
 
