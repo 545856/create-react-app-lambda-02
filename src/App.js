@@ -1,7 +1,6 @@
 import React, { Component } from "react"
 import logo from "./logo.svg"
 import "./App.css"
-import queryString from 'query-string';
 
 class LambdaDemo extends Component {
   constructor(props) {
@@ -12,8 +11,8 @@ class LambdaDemo extends Component {
   }
   
   componentDidMount() {
-		const location = useHistory().location;
-		const query = queryString.parse(location.search);
+		const queryString = window.location.search;
+		console.log(queryString);
     }
 
   handleClick = api => e => {
