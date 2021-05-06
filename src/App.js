@@ -44,7 +44,7 @@ class LambdaDemo extends Component {
 	  
 	  <div className="video-responsive">
 	  <iframe id="frame1" title="superVid"
-		src="https://www.youtube.com/embed/tgbNymZ7vqY">
+		src="https://youtu.be/16jiP0gLKCA">
 		</iframe>
 		
 		</div>
