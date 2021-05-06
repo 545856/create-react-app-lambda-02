@@ -22,7 +22,7 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@keyframes App-logo-spin2 {
   from {
     transform: rotate(0deg);
   }
@@ -44,4 +44,8 @@
   height: 100%;
   width: 100%;
   position: absolute;
+}
+
+.hiddenVid {
+  display:none;
 }
