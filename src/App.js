@@ -29,11 +29,12 @@ class LambdaDemo extends Component {
         <span>{msg}</span>
       </p>
 
-      <div>
-          <p class="hiddenTest">Salut 1</p>
-          <p class="hiddenTest">Salut 2</p>
-          <p class="hiddenTest">Salut 3</p>
-      </div>
+       <p>
+        <button onClick={this.handleClick("hello")}>{loading ? "Loading..." : "Call Super Lambda"}</button>
+        <button onClick={this.handleClick("async-dadjoke")}>{loading ? "Loading..." : "Call Async Lambda"}</button>
+        <br />
+        <span>{msg}</span>
+      </p>
     )
   }
 }
