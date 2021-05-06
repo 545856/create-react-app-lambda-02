@@ -4,7 +4,7 @@ import "./App.css"
 
 
 function myFunction() {
-  
+  console.log("Hello");
 }
 
 class LambdaDemo extends Component {
@@ -33,10 +33,10 @@ class LambdaDemo extends Component {
         <span>{msg}</span>
       </p>
 
-      <div onload="myFunction()">
-          <div class="hidden">Salut 1</div>
-          <div class="hidden">Salut 2</div>
-          <div class="hidden">Salut 3</div>
+      <div>
+          <div class="hiddenTest">Salut 1</div>
+          <div class="hiddenTest">Salut 2</div>
+          <div class="hiddenTest">Salut 3</div>
       </div>
     )
   }
