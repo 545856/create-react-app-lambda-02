@@ -47,11 +47,6 @@
 
 .hiddenVid {
   display:none;
-  text-color:white;
-  border-style: solid;
-  border-color: white;
-  border-width: 2px;
-  text-decoration: none;  
 }
 
 .hiddenVid a {
