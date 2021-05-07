@@ -29,16 +29,16 @@ class LambdaDemo extends Component {
 	<>
 	  		
 		<div className="hiddenVid" id="monetFr">
-			<a href="https://youtu.be/16jiP0gLKCA">Français</a>
+			<a class="textlink" href="https://youtu.be/16jiP0gLKCA">Lecture de l’œuvre “Le bassin du commerce, Le Havre” de Claude Monet </a>
 		</div>
 		<div className="hiddenVid" id="monetEn">
-			<a href="https://youtu.be/16jiP0gLKCA">English</a>
+			<a class="textlink" href="https://youtu.be/16jiP0gLKCA">Reading of the work “Le bassin du commerce, Le Havre” - Claude Monet </a>
 		</div>
 		<div className="hiddenVid" id="signacFr">
-			<a href="https://youtu.be/16jiP0gLKCA">Français</a>
+			<a class="textlink" href="https://youtu.be/16jiP0gLKCA">Français</a>
 		</div>
 		<div className="hiddenVid" id="monetEn">
-			<a href="https://youtu.be/16jiP0gLKCA">English</a>
+			<a class="textlink" href="https://youtu.be/16jiP0gLKCA">English</a>
 		</div>
 		
 		
